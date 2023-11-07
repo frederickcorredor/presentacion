@@ -1,0 +1,134 @@
+body{
+    background-image:url(images/DreamShaper_v7_image_of_a_web_programmers_office_to_put_in_the_3-_1_.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 14px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 12px 6px;
+    text-align: center;
+}
+
+.banner img{
+    border-radius: 100%;
+    margin: 4px;
+    width: 125px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.left{
+    width: 60%;
+    max-width: 450px;
+    background-color: rgba(255, 255, 255, 0.692);
+    padding: 6px;
+    border-radius: 14px;
+    min-height: 80vh;
+}
+
+.tecnologias img{
+    width: 30%;
+}
+
+.right{
+    width: 30%;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    background-color: rgba(4, 2, 88, 0.63);
+    text-align: center;
+    width: 80%;
+    margin: 14px;
+    padding: 10px;
+    border-radius: 26px;
+    box-shadow: 6px 6px 6px black;
+    color: wheat;
+}
+
+a{
+    text-align: center;
+    width: 80%;
+    margin: 14px;
+    padding: 10px;
+    width: 100%;
+    color: red;
+}
+
+
+#DesarrolloWeb{
+    display: none;
+    -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+#RedesSociales{
+    padding: 12px;
+    display: none;
+    -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+#inicio{
+    -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+
+h4{
+    text-align: center;
+    font-size: 1.5rem;
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+}
